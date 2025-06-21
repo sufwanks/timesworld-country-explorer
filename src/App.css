@@ -1,0 +1,247 @@
+
+body {
+  color: black; 
+}
+
+h2, p, label, .form-check-label, .text-muted {
+  color: black !important;
+}
+
+.form-control,
+.btn {
+  border-radius: 0 !important; 
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.custom-signin-btn {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 0; 
+}
+
+.custom-signin-btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.social-icon-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50% !important;
+  padding: 0;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  border-color: black;
+  background-color: white;
+}
+
+.social-icon-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.nav-top {
+  font-weight: bold;
+}
+
+.region-nav span {
+  margin-left: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #666;
+  position: relative;
+}
+
+.region-nav span.active {
+  color: black;
+}
+
+.region-nav span.active::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background: black;
+  width: 100%;
+  bottom: -5px;
+  left: 0;
+}
+
+.divider-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.divider-heading hr {
+  flex: 1;
+  border: none;
+  border-top: 2px solid black;
+}
+
+.divider-heading h2 {
+  font-weight: bold;
+  margin: 0;
+}
+
+.slider-secondary,.slider-main,
+.slider-main .frame-box {
+  border: 2px solid #000000;
+  background: #f3f3f3;
+  height: 400px;
+  padding: 10px;
+}
+
+.frame-box span {
+  font-weight: bold;
+  font-size: 18px;
+  color: #888;
+}
+
+.country-card {
+  border: 2px solid #000000;
+  padding: 10px 15px;
+  box-shadow: 6px 6px 10px rgba(0,0,0,0.1);
+  background: white;
+}
+
+.load-more-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 0;
+  padding: 8px 24px;
+}
+
+.load-more-btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+}
+
+.social-icons i {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.dots .dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.6;
+}
+
+.dots .dot.active {
+  background-color: #fff;
+  opacity: 1;
+  transform: scale(1.3);
+}
+
+.arrow-button {
+  border: none;
+  padding: 6px 12px;
+  background: transparent;
+  border-radius: 50% !important;
+  font-size: 18px;
+  color: #333;
+}
+
+.arrow-button:hover {
+  background-color: #ddd;
+}
+
+.slider-secondary h5,
+.slider-secondary p {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.slider-secondary span {
+  font-weight: 500;
+}
+.slider-main{
+  width: 75%;
+}
+
+.slider-secondary{
+  width: 25%;
+}
+.slider-responsive{
+  width: -webkit-fill-available;
+}
+.slider-secondary p {
+  word-break: break-all;
+}
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  p,
+  label,
+  .form-check-label {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .form-control,
+  .btn,
+  .custom-signin-btn {
+    font-size: 16px;
+    padding: 10px 14px;
+  }
+
+  .social-icon-button {
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+  }
+
+  .login-svg-container {
+    display: none !important;
+  }
+
+  .country-card img {
+    width: 50px;
+  }
+
+  .country-card h5 {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .country-card p {
+    font-size: 14px;
+    text-align: justify;
+  }
+  .slider-main{
+    width: -webkit-fill-available;
+    height: 200px;
+  }
+  .slider-secondary{
+    width: -webkit-fill-available;
+    height: 100px;
+  }
+}
